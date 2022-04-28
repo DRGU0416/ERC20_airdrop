@@ -23,7 +23,7 @@ contract EthSwap {
     );
 
     constructor() {
-        token = new Token(1000000000 ether); //set total supply to 1 million tokens
+        // token = new Token(1000000000 ether); //set total supply to 1 million tokens
     }
 
     function buyTokens() public payable {
